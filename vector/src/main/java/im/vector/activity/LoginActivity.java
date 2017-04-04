@@ -159,9 +159,11 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
     // the login account name
     private EditText mLoginEmailTextView;
 
+/* hernad - no phone
     // the login phone number
     private EditText mLoginPhoneNumber;
     private EditText mLoginPhoneNumberCountryCode;
+*/
 
     // the login password
     private EditText mLoginPasswordTextView;
@@ -287,16 +289,20 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
     private Runnable mRegisterPollingRunnable;
     private Handler mHandler;
 
+/* hernad - no phone
     private PhoneNumberHandler mLoginPhoneNumberHandler;
     private PhoneNumberHandler mRegistrationPhoneNumberHandler;
+*/
 
     private Dialog mCurrentDialog;
 
     @Override
     protected void onDestroy() {
+      /* hernad - no phone
         if (mLoginPhoneNumberHandler != null) {
             mLoginPhoneNumberHandler.release();
         }
+      */
         if (mRegistrationPhoneNumberHandler != null) {
             mRegistrationPhoneNumberHandler.release();
         }
@@ -400,8 +406,8 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
 
         // login
         mLoginEmailTextView = (EditText) findViewById(R.id.login_user_name);
-        mLoginPhoneNumber = (EditText) findViewById(R.id.login_phone_number_value);
-        mLoginPhoneNumberCountryCode = (EditText) findViewById(R.id.login_phone_number_country);
+        // hernad - no phone, mLoginPhoneNumber = (EditText) findViewById(R.id.login_phone_number_value);
+        // hernad - no phone mLoginPhoneNumberCountryCode = (EditText) findViewById(R.id.login_phone_number_country);
         mLoginPasswordTextView = (EditText) findViewById(R.id.login_password);
 
         // account creation
@@ -557,11 +563,13 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
             }
         });
 
+/* hernad - no phone
         mLoginPhoneNumberHandler = new PhoneNumberHandler(this, mLoginPhoneNumber, mLoginPhoneNumberCountryCode,
                 PhoneNumberHandler.DISPLAY_COUNTRY_ISO_CODE, REQUEST_LOGIN_COUNTRY);
         mLoginPhoneNumberHandler.setCountryCode(PhoneNumberUtils.getCountryCode(this));
         mRegistrationPhoneNumberHandler = new PhoneNumberHandler(this, mPhoneNumber, mPhoneNumberCountryCode,
                 PhoneNumberHandler.DISPLAY_COUNTRY_ISO_CODE, REQUEST_REGISTRATION_COUNTRY);
+*/
 
         refreshDisplay();
 
@@ -1555,8 +1563,11 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
         }
 
         final String username = mLoginEmailTextView.getText().toString().trim();
+/* hernad - no phone
         final String phoneNumber = mLoginPhoneNumberHandler.getE164PhoneNumber();
         final String phoneNumberCountry = mLoginPhoneNumberHandler.getCountryCode();
+*/
+
         final String password = mLoginPasswordTextView.getText().toString().trim();
 
         if (TextUtils.isEmpty(password)) {
@@ -1564,6 +1575,7 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
             return;
         }
 
+/* hernad - no phone
         if (TextUtils.isEmpty(username) && !mLoginPhoneNumberHandler.isPhoneNumberValidForCountry()){
             // Check if phone number is empty or just invalid
             if (mLoginPhoneNumberHandler.getPhoneNumber() != null) {
@@ -1574,6 +1586,7 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
                 return;
             }
         }
+*/
 
         // disable UI actions
         enableLoadingScreen(true);
@@ -1967,7 +1980,9 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
     //==============================================================================================================
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
         Log.d(LOG_TAG, "## onActivityResult(): IN - requestCode=" + requestCode + " resultCode=" + resultCode);
+/*
         if (resultCode == RESULT_OK && requestCode == REQUEST_REGISTRATION_COUNTRY) {
             if (data != null && data.hasExtra(CountryPickerActivity.EXTRA_OUT_COUNTRY_CODE) && mRegistrationPhoneNumberHandler != null) {
                 mRegistrationPhoneNumberHandler.setCountryCode(data.getStringExtra(CountryPickerActivity.EXTRA_OUT_COUNTRY_CODE));
@@ -1976,7 +1991,10 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
             if (data != null && data.hasExtra(CountryPickerActivity.EXTRA_OUT_COUNTRY_CODE) && mLoginPhoneNumberHandler != null) {
                 mLoginPhoneNumberHandler.setCountryCode(data.getStringExtra(CountryPickerActivity.EXTRA_OUT_COUNTRY_CODE));
             }
-        } else if (CAPTCHA_CREATION_ACTIVITY_REQUEST_CODE == requestCode) {
+
+
+        } else */
+        if (CAPTCHA_CREATION_ACTIVITY_REQUEST_CODE == requestCode) {
             if (resultCode == RESULT_OK) {
                 Log.d(LOG_TAG, "## onActivityResult(): CAPTCHA_CREATION_ACTIVITY_REQUEST_CODE => RESULT_OK");
                 String captchaResponse = data.getStringExtra("response");

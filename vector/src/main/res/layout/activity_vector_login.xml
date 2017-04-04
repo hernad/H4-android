@@ -167,6 +167,8 @@
                             android:visibility="gone"
                             tools:text="FR" />
 
+<!-- hernad - no phone number as login option
+
                         <EditText
                             android:id="@+id/login_phone_number_value"
                             android:layout_width="match_parent"
@@ -175,6 +177,8 @@
                             android:inputType="phone"
                             android:singleLine="true"
                             tools:text="0600000000" />
+-->
+
                     </LinearLayout>
 
                     <EditText
@@ -415,4 +419,3 @@
     </RelativeLayout>
 
 </RelativeLayout>
-
