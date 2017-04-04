@@ -1,12 +1,12 @@
-/* 
+/*
  * Copyright 2014 OpenMarket Ltd
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *     http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -68,7 +68,7 @@ public class GAHelper {
      */
     public static Boolean useGA(Context context) {
         // avoid getting the GA issues from the forked branches
-        if (!TextUtils.equals(VectorApp.getInstance().getPackageName(), "im.vector.alpha")) {
+        if (!TextUtils.equals(VectorApp.getInstance().getPackageName(), "ba.out.bring.h4")) {
             return false;
         }
 
@@ -151,7 +151,7 @@ public class GAHelper {
                     b.append("usedSize   " + (usedSize / 1048576L) + " MB\n");
                     b.append("freeSize   " + (freeSize / 1048576L) + " MB\n");
                     b.append("totalSize   " + (totalSize / 1048576L) + " MB\n");
-                    
+
                     b.append("Thread: ");
                     b.append(threadName);
 
