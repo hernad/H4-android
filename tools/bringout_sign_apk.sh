@@ -7,7 +7,9 @@ build_dir=$(pwd)
 
 #./vector/build/outputs/apk/vector-app-release-unsigned.apk
 APK_DIR=./vector/build/outputs/apk
-APK=vector-app-release-unsigned.apk
+#APK=vector-app-release-unsigned.apk
+APK=vector-appfdroid-release-unsigned.apk
+
 APK_SIGNED=h4.apk
 
 cd $APK_DIR
