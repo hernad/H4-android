@@ -142,12 +142,15 @@
                         android:singleLine="true"
                         android:hint="@string/auth_user_id_placeholder"/>
 
+<!-- hernad - no phone number as login option
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="4dp"
                         android:textSize="16sp"
                         android:text="@string/or" />
+
 
                     <LinearLayout
                         android:id="@+id/login_phone_number"
@@ -167,7 +170,6 @@
                             android:visibility="gone"
                             tools:text="FR" />
 
-<!-- hernad - no phone number as login option
 
                         <EditText
                             android:id="@+id/login_phone_number_value"
@@ -177,10 +179,10 @@
                             android:inputType="phone"
                             android:singleLine="true"
                             tools:text="0600000000" />
--->
+
 
                     </LinearLayout>
-
+-->
                     <EditText
                         android:id="@+id/login_password"
                         android:layout_width="match_parent"

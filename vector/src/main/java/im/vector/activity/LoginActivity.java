@@ -302,10 +302,10 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
         if (mLoginPhoneNumberHandler != null) {
             mLoginPhoneNumberHandler.release();
         }
-      */
         if (mRegistrationPhoneNumberHandler != null) {
             mRegistrationPhoneNumberHandler.release();
         }
+      */
         if (mCurrentDialog != null) {
             mCurrentDialog.dismiss();
             mCurrentDialog = null;
@@ -794,7 +794,7 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
                 cancelEmailPolling();
                 RegistrationManager.getInstance().clearThreePid();
                 mEmailAddress.setText("");
-                mRegistrationPhoneNumberHandler.reset();
+                // hernad - no phone: mRegistrationPhoneNumberHandler.reset();
                 fallbackToRegistrationMode();
                 return true;
             }
@@ -1591,7 +1591,8 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
         // disable UI actions
         enableLoadingScreen(true);
 
-        login(hsConfig, hsUrlString, identityUrlString, username, phoneNumber, phoneNumberCountry, password);
+        // hernad - no phone:  login(hsConfig, hsUrlString, identityUrlString, username, phoneNumber, phoneNumberCountry, password);
+        login(hsConfig, hsUrlString, identityUrlString, username, password);
     }
 
     /**
@@ -1601,15 +1602,22 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
      * @param hsUrlString        the HS url
      * @param identityUrlString  the Identity server URL
      * @param username           the username
-     * @param phoneNumber        the phone number
-     * @param phoneNumberCountry the phone number country code
      * @param password           the user password
      */
+
+/* hernad - no phone:
+
     private void login(final HomeserverConnectionConfig hsConfig, final String hsUrlString,
                        final String identityUrlString, final String username, final String phoneNumber,
                        final String phoneNumberCountry, final String password) {
+  */
+
+    private void login(final HomeserverConnectionConfig hsConfig, final String hsUrlString,
+                     final String identityUrlString, final String username, final String password) {
         try {
-            mLoginHandler.login(this, hsConfig, username, phoneNumber, phoneNumberCountry, password, new SimpleApiCallback<HomeserverConnectionConfig>(this) {
+             /* hernad - no phone: mLoginHandler.login(this, hsConfig, username, phoneNumber, phoneNumberCountry, password, new SimpleApiCallback<HomeserverConnectionConfig>(this) {
+              */
+             mLoginHandler.login(this, hsConfig, username, "", "", password, new SimpleApiCallback<HomeserverConnectionConfig>(this) {
                 @Override
                 public void onSuccess(HomeserverConnectionConfig c) {
                     enableLoadingScreen(false);
@@ -1638,8 +1646,11 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
                     // try with the vector.im HS
                     if (TextUtils.equals(hsUrlString, getString(R.string.vector_im_server_url)) && TextUtils.equals(e.errcode, MatrixError.FORBIDDEN)) {
                         Log.e(LOG_TAG, "onLoginClick : test with matrix.org as HS");
+                        // hernad - no phone:  mHomeserverConnectionConfig = new HomeserverConnectionConfig(Uri.parse(getString(R.string.matrix_org_server_url)), Uri.parse(identityUrlString), null, new ArrayList<Fingerprint>(), false);
+                        // hernad - no phone: login(mHomeserverConnectionConfig, getString(R.string.matrix_org_server_url), identityUrlString, username, phoneNumber, phoneNumberCountry, password);
                         mHomeserverConnectionConfig = new HomeserverConnectionConfig(Uri.parse(getString(R.string.matrix_org_server_url)), Uri.parse(identityUrlString), null, new ArrayList<Fingerprint>(), false);
-                        login(mHomeserverConnectionConfig, getString(R.string.matrix_org_server_url), identityUrlString, username, phoneNumber, phoneNumberCountry, password);
+                        login(mHomeserverConnectionConfig, getString(R.string.matrix_org_server_url), identityUrlString, username, password);
+
                     } else {
                         Log.e(LOG_TAG, "onLoginClick : onMatrixError " + e.getLocalizedMessage());
                         enableLoadingScreen(false);
@@ -2058,7 +2069,7 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
         // Make sure to start with a clear state
         RegistrationManager.getInstance().clearThreePid();
         mEmailAddress.setText("");
-        mRegistrationPhoneNumberHandler.reset();
+        // hernad - no phone: mRegistrationPhoneNumberHandler.reset();
         mEmailAddress.requestFocus();
 
         mThreePidInstructions.setText(RegistrationManager.getInstance().getThreePidInstructions(this));
@@ -2074,6 +2085,7 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
             mEmailAddress.setVisibility(View.GONE);
         }
 
+/* hernad - no phone:
         if (RegistrationManager.getInstance().supportStage(LoginRestClient.LOGIN_FLOW_TYPE_MSISDN)) {
             mRegistrationPhoneNumberHandler.setCountryCode(PhoneNumberUtils.getCountryCode(this));
             mPhoneNumberLayout.setVisibility(View.VISIBLE);
@@ -2085,7 +2097,7 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
         } else {
             mPhoneNumberLayout.setVisibility(View.GONE);
         }
-
+*/
         if (RegistrationManager.getInstance().canSkip()) {
             mSkipThreePidButton.setVisibility(View.VISIBLE);
             mSkipThreePidButton.setOnClickListener(new View.OnClickListener() {
@@ -2094,7 +2106,7 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
                     // Make sure no three pid is attached to the process
                     RegistrationManager.getInstance().clearThreePid();
                     createAccount();
-                    mRegistrationPhoneNumberHandler.reset();
+                    // hernad - no phone: mRegistrationPhoneNumberHandler.reset();
                     mEmailAddress.setText("");
                 }
             });
@@ -2131,6 +2143,8 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
             return;
         }
 
+      /* hernad - no phone:
+
         // Check that phone number format is valid and not empty if field is required
         if (mRegistrationPhoneNumberHandler.getPhoneNumber() != null) {
             if (!mRegistrationPhoneNumberHandler.isPhoneNumberValidForCountry()) {
@@ -2147,12 +2161,14 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
             Toast.makeText(this, R.string.auth_missing_email_or_phone, Toast.LENGTH_SHORT).show();
             return;
         }
+      */
 
         if (!TextUtils.isEmpty(email)) {
             // Communicate email to singleton (will be validated later on)
             RegistrationManager.getInstance().addEmailThreePid(email);
         }
 
+       /*  hernad - no phone:
         if (mRegistrationPhoneNumberHandler.getPhoneNumber() != null) {
             // Communicate phone number to singleton + start validation process (always phone first)
             enableLoadingScreen(true);
@@ -2169,6 +2185,10 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
         } else {
             createAccount();
         }
+        */
+        createAccount();
+
+
     }
 
     /**
