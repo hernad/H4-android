@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="resouces_language">en</string>
-    <string name="resouces_country">UK</string>
+    <string name="resouces_language">bs</string>
+    <string name="resouces_country">BA</string>
 
     <!-- titles -->
-    <string name="app_name">Riot</string>
-    <string name="title_activity_home">Messages</string>
-    <string name="title_activity_room">Room</string>
-    <string name="title_activity_public_rooms">Public Rooms</string>
-    <string name="title_activity_room_info">Room info</string>
-    <string name="title_activity_settings">Settings</string>
+    <string name="app_name">H4 haber</string>
+    <string name="title_activity_home">Poruke</string>
+    <string name="title_activity_room">Grupe</string>
+    <string name="title_activity_public_rooms">Javne grupe</string>
+    <string name="title_activity_room_info">Informacije o grupi</string>
+    <string name="title_activity_settings">Postavke</string>
     <string name="title_activity_notification_settings">Notification Settings</string>
     <string name="title_activity_member_details">Member Details</string>
     <string name="title_activity_invite_user">Invite Users</string>
@@ -17,13 +17,13 @@
 
     <!-- button names -->
     <string name="ok">OK</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
-    <string name="stay">Stay</string>
-    <string name="leave">Leave</string>
-    <string name="send">Send</string>
-    <string name="copy">Copy</string>
-    <string name="resend">Resend</string>
+    <string name="cancel">Otkaži</string>
+    <string name="save">Snimi</string>
+    <string name="stay">Ostani</string>
+    <string name="leave">Napusti</string>
+    <string name="send">Pošalji</string>
+    <string name="copy">Kopiraj</string>
+    <string name="resend">Ponovo pošalji</string>
     <string name="redact">Redact</string>
     <string name="quote">Quote</string>
     <string name="share">Share</string>
@@ -60,10 +60,10 @@
     <string name="or">or</string>
 
     <!-- server urls -->
-    <string name="vector_im_server_url">https://vector.im</string>
-    <string name="matrix_org_server_url">https://matrix.org</string>
-    <string name="default_hs_server_url">https://matrix.org</string>
-    <string name="default_identity_server_url">https://vector.im</string>
+    <string name="vector_im_server_url">https://matrix.bring.out.ba</string>
+    <string name="matrix_org_server_url">https://matrix.bring.out.ba</string>
+    <string name="default_hs_server_url">https://matrix.bring.out.ba</string>
+    <string name="default_identity_server_url">https://matrix.bring.out.ba</string>
 
     <!-- actions -->
     <string name="action_settings">Settings</string>

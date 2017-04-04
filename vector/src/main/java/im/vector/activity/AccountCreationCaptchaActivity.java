@@ -86,7 +86,7 @@ public class AccountCreationCaptchaActivity extends Activity {
 
         Intent intent = getIntent();
 
-        String homeServerUrl = "https://matrix.org/";
+        String homeServerUrl = "https://matrix.bring.out.ba/";
 
         if (intent.hasExtra(EXTRA_HOME_SERVER_URL)) {
             homeServerUrl = intent.getStringExtra(EXTRA_HOME_SERVER_URL);

@@ -71,7 +71,7 @@ public class AccountCreationActivity extends Activity {
 
         Intent intent = getIntent();
 
-        mHomeServerUrl = "https://matrix.org/";
+        mHomeServerUrl = "https://matrix.bring.out.ba/";
 
         if (intent.hasExtra(EXTRA_HOME_SERVER_ID)) {
             mHomeServerUrl = intent.getStringExtra(EXTRA_HOME_SERVER_ID);

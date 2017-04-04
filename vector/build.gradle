@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "im.vector"
+        applicationId "out.ba.bring.vector"
         minSdkVersion 16
         targetSdkVersion 23
         // use the version code
@@ -19,7 +19,7 @@ android {
         versionName rootProject.ext.versionNameProp
 
         // custom values
-        resValue "string", "bug_report_url",  "https://riot.im/bugreports/submit"
+        resValue "string", "bug_report_url",  "https://github.com/hernad/riot-android"
     }
 
     signingConfigs {
@@ -146,4 +146,3 @@ dependencies {
 
     // fdroid flavor only
 }
-
