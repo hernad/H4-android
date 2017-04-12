@@ -225,7 +225,7 @@
     <string name="auth_reset_password_email_validation_message">Poslali smo email na  %s. Kada kliknete ba link u email-u, kliknuti ispod.</string>
     <string name="auth_reset_password_error_unauthorized">Validacije emaila neuspješna: Molimo da provjerite dali ste kliknuli na link u email-u</string>
     <string name="auth_reset_password_error_not_found">Vaša email adresa nije povezana sa računom na ovom serveru.</string>
-    <string name="auth_reset_password_success_message">Vaša lozinka je obnovljena.\n\nIsključeni ste sa svih uređaja kao i notifikacija. Molimo da se ponovo logirate na svim uređajima.</string>
+    <string name="auth_reset_password_success_message">Vaša lozinka je obnovljena.\n\nIsključeni ste sa svih uređaja kao i obavijesti. Molimo da se ponovo logirate na svim uređajima.</string>
 
     <!-- Login Screen -->
     <string name="login_error_already_logged_in">Već ste prijavljeni</string>
@@ -520,7 +520,7 @@
     <string name="room_participants_action_set_default_power_level">Reset to normal user</string>
     <string name="room_participants_action_set_moderator">Make moderator</string>
     <string name="room_participants_action_set_admin">Make admin</string>
-    <string name="room_participants_action_start_chat">Start chat</string>
+    <string name="room_participants_action_start_chat">Pokreni razgovor</string>
     <string name="room_participants_action_start_voice_call">Start voice call</string>
     <string name="room_participants_action_start_video_call">Start video call</string>
     <string name="room_participants_action_ignore">Hide all messages from this user</string>
@@ -549,32 +549,32 @@
     <string name="presence_unavailable">Unavailable</string>
 
     <!--  Chat -->
-    <string name="room_menu_search">Search</string>
-    <string name="room_menu_call">Call</string>
-    <string name="room_menu_participants">Participants</string>
-    <string name="room_menu_favourite">Favourite</string>
-    <string name="room_menu_unfavourite">Unfavourite</string>
-    <string name="room_menu_settings">Settings</string>
-    <string name="room_option_start_group_voice">Start group audio chat</string>
-    <string name="room_option_start_group_video">Start group video chat</string>
-    <string name="room_option_share_location">Share location</string>
-    <string name="room_option_share_contact">Share contact</string>
-    <string name="room_one_user_is_typing">%s is typing...</string>
-    <string name="room_two_users_are_typing">%1$s &#038; %2$s are typing...</string>
-    <string name="room_many_users_are_typing">%1$s &#038; %2$s &#038; others are typing...</string>
-    <string name="room_message_placeholder_encrypted">Send an encrypted message...</string>
-    <string name="room_message_placeholder_not_encrypted">Send a message (unencrypted)...</string>
-    <string name="room_offline_notification">Connectivity to the server has been lost.</string>
+    <string name="room_menu_search">Traži</string>
+    <string name="room_menu_call">Pozovi</string>
+    <string name="room_menu_participants">Učestvuju</string>
+    <string name="room_menu_favourite">Favorit</string>
+    <string name="room_menu_unfavourite">Ne-favorit</string>
+    <string name="room_menu_settings">Postavke</string>
+    <string name="room_option_start_group_voice">Pokreni grupni audio poziv</string>
+    <string name="room_option_start_group_video">Pokreni grupni video poziv</string>
+    <string name="room_option_share_location">Podijeli lokaciju</string>
+    <string name="room_option_share_contact">Podijeli kontakt</string>
+    <string name="room_one_user_is_typing">%s tipka...</string>
+    <string name="room_two_users_are_typing">%1$s &#038; %2$s tipkaju...</string>
+    <string name="room_many_users_are_typing">%1$s &#038; %2$s &#038; ostali tipkaju...</string>
+    <string name="room_message_placeholder_encrypted">Pošalji kriptovanu poruku...</string>
+    <string name="room_message_placeholder_not_encrypted">Pošaljite poruku (unencrypted)...</string>
+    <string name="room_offline_notification">Konekcija prema serveru je izgubljena.</string>
     <string name="room_unsent_messages_notification">Messages not sent. %1$s or %2$s now?</string>
     <string name="room_unknown_devices_messages_notification">Messages not sent due to unknown devices being present. %1$s or %2$s now?</string>
-    <string name="room_prompt_resend">Resend all</string>
-    <string name="room_prompt_cancel">cancel all</string>
-    <string name="room_resend_unsent_messages">Resend unsent messages</string>
-    <string name="room_delete_unsent_messages">Delete unsent messages</string>
-    <string name="room_message_file_not_found">File not found</string>
-    <string name="room_do_not_have_permission_to_post">You do not have permission to post to this room</string>
-    <string name="room_new_message_notification">1 new message</string>
-    <string name="room_new_messages_notification">%1$d new messages</string>
+    <string name="room_prompt_resend">Ponovi sve</string>
+    <string name="room_prompt_cancel">Poništi sve</string>
+    <string name="room_resend_unsent_messages">Ponovi slanje poruka koje nisu poslane</string>
+    <string name="room_delete_unsent_messages">Obriši neposlane poruke</string>
+    <string name="room_message_file_not_found">Fajl nije pronađen</string>
+    <string name="room_do_not_have_permission_to_post">Nemate dozvolu da koristite ovu sobu</string>
+    <string name="room_new_message_notification">1 nova poruka</string>
+    <string name="room_new_messages_notification">%1$d nove poruke</string>
 
     <!-- unrecognized SSL certificate -->
     <string name="ssl_trust">Trust</string>
@@ -590,20 +590,20 @@
     <string name="ssl_only_accept">ONLY accept the certificate if the server administrator has published a fingerprint that matches the one above.</string>
     <string name="ssl_fingerprint_example">00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</string>
 
-    <!-- Room Details -->
-    <string name="room_details_title">Room Details</string>
-    <string name="room_details_people">People</string>
-    <string name="room_details_files">Files</string>
-    <string name="room_details_settings">Settings</string>
-    <string name="room_details_fail_to_update_topic">Fail to update the topic</string>
-    <string name="room_details_fail_to_update_room_name">Fail to update the room name</string>
-    <string name="room_details_with_updates">The updates will be lost : are you sure to leave ?</string>
-    <string name="room_details_room_listed_in_directory">room listed</string>
-    <string name="room_details_room_not_listed_in_directory">room not listed</string>
-    <string name="room_details_selected">selected</string>
+    <!-- O sobi -->
+    <string name="room_details_title">Soba detaljno</string>
+    <string name="room_details_people">Kontakti</string>
+    <string name="room_details_files">Fajlovi</string>
+    <string name="room_details_settings">Postavke</string>
+    <string name="room_details_fail_to_update_topic">Neuspješno postavljanje teme</string>
+    <string name="room_details_fail_to_update_room_name">Neuspješno postavljanje naziva sobe</string>
+    <string name="room_details_with_updates">Promjene će biti izgubljene, dali sigurno želite napustiti?</string>
+    <string name="room_details_room_listed_in_directory">Soba je u listi</string>
+    <string name="room_details_room_not_listed_in_directory">Soba nije u listi</string>
+    <string name="room_details_selected">Odabrano</string>
     <string name="malformed_id">Malformed ID. Should be an email address or a Matrix ID like \'@localpart:domain\'</string>
-    <string name="room_details_people_invited_group_name">INVITED</string>
-    <string name="room_details_people_present_group_name">JOINED</string>
+    <string name="room_details_people_invited_group_name">Pozvan</string>
+    <string name="room_details_people_present_group_name">Pridružen</string>
 
     <!-- Room events -->
     <string name="room_event_action_report_prompt_reason">Reason for reporting this content</string>
@@ -619,12 +619,12 @@
     <string name="room_displayname_no_title">Empty room</string>
 
     <!-- Search -->
-    <string name="search_hint">Search</string>
-    <string name="search_members_hint">Filter room members</string>
-    <string name="search_no_results">No results</string>
+    <string name="search_hint">Traži</string>
+    <string name="search_members_hint">Filtriraj članove sobe</string>
+    <string name="search_no_results">Nema rezultata</string>
     <string name="tab_title_search_rooms">SOBE</string>
     <string name="tab_title_search_messages">PORUKE</string>
-    <string name="tab_title_search_people">LJUDI</string>
+    <string name="tab_title_search_people">KONTAKTI</string>
     <string name="tab_title_search_files">FAJLOVI</string>
 
     <!-- Room recents -->
@@ -635,8 +635,8 @@
     <string name="room_recents_conversations">ROOMS</string>
     <string name="room_recents_low_priority">LOW PRIORITY</string>
     <string name="room_recents_invites">INVITES</string>
-    <string name="room_recents_start_chat">Start chat</string>
-    <string name="room_recents_create_room">Create room</string>
+    <string name="room_recents_start_chat">Pokreni razgovor</string>
+    <string name="room_recents_create_room">Kreiraj sobu</string>
 
     <!-- Directory -->
     <string name="directory_search_results_title">Browse directory</string>
@@ -682,8 +682,8 @@
     <string name="settings_summary_app_info_link">Application system info screen</string>
     <string name="settings_title_app_info_link">Application info</string>
 
-    <string name="settings_enable_all_notif">Omogući notifikacije za ovaj račun</string>
-    <string name="settings_enable_this_device">Omogući notifikacije za ovaj uređaj</string>
+    <string name="settings_enable_all_notif">Omogući obavijesti za ovaj račun</string>
+    <string name="settings_enable_this_device">Omogući obavijesti za ovaj uređaj</string>
     <string name="settings_turn_screen_on">Uključi prikaz na 3 sekunde</string>
 
     <string name="settings_containing_my_name">Poruke koje sadrže moje ime</string>
@@ -704,8 +704,8 @@
     <string name="settings_olm_version">olm verzija</string>
     <string name="settings_app_term_conditions">Uslovi korištenja</string>
     <string name="settings_third_party_notices">3P obavijesti</string>
-    <string name="settings_copyright">Autorsko pravo</string>
-    <string name="settings_privacy_policy">Privatsnost</string>
+    <string name="settings_copyright">Autorska prava</string>
+    <string name="settings_privacy_policy">Privatnost</string>
     <string name="settings_clear_cache">Pobriši cache</string>
     <!--string name="settings_room_privacy_label">Privacy</string-->
 
@@ -716,11 +716,11 @@
     <string name="settings_other">Ostalo</string>
     <string name="settings_advanced">Napredno</string>
     <string name="settings_cryptography">Cryptography</string>
-    <string name="settings_notifications_targets">Notification Targets</string>
-    <string name="settings_contact">Local contacts</string>
-    <string name="settings_contacts_app_permission">Contacts permission</string>
-    <string name="settings_contacts_phonebook_country">Phonebook country</string>
-    <string name="settings_devices_list">Devices</string>
+    <string name="settings_notifications_targets">Uređaji i obavijesti</string>
+    <string name="settings_contact">Lokalkni kontakti</string>
+    <string name="settings_contacts_app_permission">Dozvole kontakata</string>
+    <string name="settings_contacts_phonebook_country">Adresar za državu</string>
+    <string name="settings_devices_list">Uređaji</string>
     <string name="devices_divider">devices_devider</string>
     <string name="cryptography_divider">cryptography_divider</string>
     <string name="devices_details_dialog_title">Device details</string>
@@ -744,7 +744,7 @@
     <string name="account_email_validation_message">Please check your email and click on the link it contains. Once this is done, click continue.</string>
     <string name="account_email_validation_error">Unable to verify email address. Please check your email and click on the link it contains. Once this is done, click continue</string>
 
-    <string name="settings_change_password">Change password</string>
+    <string name="settings_change_password">Izmjeni lozinku</string>
     <string name="settings_old_password">old password</string>
     <string name="settings_new_password">new password</string>
     <string name="settings_confirm_password">confirm password</string>
@@ -770,13 +770,13 @@
     <!-- Room Settings -->
 
     <!-- room global settings-->
-    <string name="room_settings_room_photo">Room Photo</string>
-    <string name="room_settings_photo">Room Photo</string>
-    <string name="room_settings_room_name">Room Name</string>
-    <string name="room_settings_topic">Topic</string>
-    <string name="room_settings_room_tag">Room Tag</string>
-    <string name="room_settings_tag_pref_dialog_title">Tagged as:</string>
-    <string name="room_settings_mute_notifs">Mute Notifications</string>
+    <string name="room_settings_room_photo">Slika sobe</string>
+    <string name="room_settings_photo">Slika sobe</string>
+    <string name="room_settings_room_name">Naziv sobe</string>
+    <string name="room_settings_topic">Tema</string>
+    <string name="room_settings_room_tag">Tag sobe</string>
+    <string name="room_settings_tag_pref_dialog_title">Tagirana kao:</string>
+    <string name="room_settings_mute_notifs">Ugasi obavijesti</string>
 
     <!-- Room settings: Room tag -->
     <string name="room_settings_tag_pref_entry_favourite">Favourite</string>
@@ -812,14 +812,14 @@
     <string name="room_settings_room_access_entry_anyone_with_link_including_guest">Anyone who knows the room\'s link, including guests</string>
 
     <!-- Room settings: banned users -->
-    <string name="room_settings_banned_users_title">Banned users</string>
+    <string name="room_settings_banned_users_title">Blokirani korisnici</string>
 
     <!-- advanced -->
-    <string name="room_settings_category_advanced_title">Advanced</string>
-    <string name="room_settings_room_internal_id">This room\'s internal ID</string>
-    <string name="room_settings_addresses_pref_title">Addresses</string>
+    <string name="room_settings_category_advanced_title">Napredno</string>
+    <string name="room_settings_room_internal_id">Sobin internai ID</string>
+    <string name="room_settings_addresses_pref_title">Adrese</string>
     <string name="room_settings_labs_pref_title">Labs</string>
-    <string name="room_settings_labs_warning_message">These are experimental features that may break in unexpected ways. Use with caution.</string>
+    <string name="room_settings_labs_warning_message">Pozor !!! Ovo su experminetalne opcije ne dirati bez stručne podrške .</string>
     <string name="room_settings_labs_end_to_end">End-to-End Encryption</string>
     <string name="room_settings_labs_end_to_end_is_active">End-to-End Encryption is active</string>
     <string name="room_settings_labs_end_to_end_warnings">You need to logout to be able to enable the encryption.</string>
