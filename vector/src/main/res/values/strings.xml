@@ -10,10 +10,10 @@
     <string name="title_activity_public_rooms">Javne grupe</string>
     <string name="title_activity_room_info">Informacije o grupi</string>
     <string name="title_activity_settings">Postavke</string>
-    <string name="title_activity_notification_settings">Notification Settings</string>
-    <string name="title_activity_member_details">Member Details</string>
-    <string name="title_activity_invite_user">Invite Users</string>
-    <string name="title_activity_medias_picker">Select Medias</string>
+    <string name="title_activity_notification_settings">Postavke obavijesti</string>
+    <string name="title_activity_member_details">Podaci o korisniku</string>
+    <string name="title_activity_invite_user">Pozovi korisnika</string>
+    <string name="title_activity_medias_picker">Odabir fajlova</string>
 
     <!-- button names -->
     <string name="ok">OK</string>
@@ -24,40 +24,40 @@
     <string name="send">Pošalji</string>
     <string name="copy">Kopiraj</string>
     <string name="resend">Ponovo pošalji</string>
-    <string name="redact">Redact</string>
-    <string name="quote">Quote</string>
-    <string name="share">Share</string>
-    <string name="later">Later</string>
-    <string name="paste_username">Paste username</string>
-    <string name="view_profile">View profile</string>
-    <string name="direct_message">Direct message</string>
-    <string name="forward">Forward</string>
-    <string name="permalink">Permalink</string>
-    <string name="message_details">Message details</string>
-    <string name="view_source">View Source</string>
-    <string name="view">View</string>
-    <string name="set_power_level">Power level</string>
+    <string name="redact">Izmijeni</string>
+    <string name="quote">Citiraj</string>
+    <string name="share">Podijeli</string>
+    <string name="later">Kasnije</string>
+    <string name="paste_username">Zalijepi korisničko ime</string>
+    <string name="view_profile">Pregled profila</string>
+    <string name="direct_message">Direktna poruka</string>
+    <string name="forward">Proslijedi</string>
+    <string name="permalink">Link</string>
+    <string name="message_details">Detalji poruke</string>
+    <string name="view_source">Pogledaj izvor</string>
+    <string name="view">Pregled</string>
+    <string name="set_power_level">Nivo snage</string>
     <string name="chat">Chat</string>
-    <string name="clear_cache">Clear Cache</string>
-    <string name="more">More</string>
-    <string name="chat_with">Chat with </string>
-    <string name="delete">Delete</string>
-    <string name="rename">Rename</string>
-    <string name="report_content">Report content</string>
-    <string name="decline">Decline</string>
-    <string name="active_call">Active call</string>
-    <string name="ongoing_conference_call"> Ongoing conference call. Join as voice or video.</string>
-    <string name="ongoing_conference_call_voice">voice</string>
+    <string name="clear_cache">Pobriši cache</string>
+    <string name="more">Više</string>
+    <string name="chat_with">razgovaraj sa: </string>
+    <string name="delete">Obriši</string>
+    <string name="rename">Reimenuj</string>
+    <string name="report_content">Prijavi sadržaj</string>
+    <string name="decline">Odbij</string>
+    <string name="active_call">Pozivi u toku</string>
+    <string name="ongoing_conference_call"> Konferencijski poziv u toku. Pridruži se audio ili videom.</string>
+    <string name="ongoing_conference_call_voice">audio</string>
     <string name="ongoing_conference_call_video">video</string>
-    <string name="cannot_start_call">Cannot start the call, please try later</string>
-    <string name="room_url">Room URL</string>
-    <string name="missing_permissions_warning">"Due to missing permissions, some features may be missing..</string>
-    <string name="missing_permissions_to_start_conf_call">You need permission to invite to start a conference in this room</string>
-    <string name="missing_permissions_title_to_start_conf_call">Cannot start call</string>
-    <string name="device_information">Device information</string>
-    <string name="room_no_conference_call_in_encrypted_rooms">Conference calls are not supported in encrypted rooms</string>
-    <string name="send_anyway">Send Anyway</string>
-    <string name="or">or</string>
+    <string name="cannot_start_call">Poziv nije moguć, molimo pokušajte kasnije</string>
+    <string name="room_url">URL sobe</string>
+    <string name="missing_permissions_warning">"Nemate potrebna ovlaštenja, neke opcije nisu dostupne..</string>
+    <string name="missing_permissions_to_start_conf_call">Nemate potrebna ovlaštenja da bi pokrenuli konferencijski poziv</string>
+    <string name="missing_permissions_title_to_start_conf_call">Poziv nije moguć</string>
+    <string name="device_information">Informacije o uređaju</string>
+    <string name="room_no_conference_call_in_encrypted_rooms">Konferencijski pozivi nisu mogući u kriptovanim sobama</string>
+    <string name="send_anyway">Ipak pošalji</string>
+    <string name="or">ili</string>
 
     <!-- server urls -->
     <string name="vector_im_server_url">https://vector.im</string>
@@ -77,166 +77,166 @@
     <string name="action_invite">Pozovi</string>
     <string name="action_disconnect">Isključi se</string>
     <string name="action_sign_out">Odjavi se</string>
-    <string name="action_sign_out_confirmation">For security, logging out will delete any end-to-end encryption keys making previous encrypted chat history unreadable if you log back in.\nSelect export to backup them before signing out.</string>
-    <string name="action_enable_room_notification">Enable room notifications</string>
-    <string name="action_disable_room_notification">Disable room notifications</string>
+    <string name="action_sign_out_confirmation">Odjavljivanjem, iz sigurnosnih razloga, sigurnosni ključevi će biti obrisani samim time će i sadržaj biti nečitljiv, prije odjavljivanja exportovati sadržaj.</string>
+    <string name="action_enable_room_notification">Uključi obavijesti za sobe</string>
+    <string name="action_disable_room_notification">Isključi obavijesti za sobe</string>
     <string name="action_create_room">Kreiraj...</string>
     <string name="action_room_info">Informacije o grupi</string>
-    <string name="action_voice_call">Voice Call</string>
-    <string name="action_video_call">Video Call</string>
-    <string name="action_search_room">Search room</string>
-    <string name="action_search_contact">Search contact</string>
-    <string name="action_mark_all_as_read">Mark all as read</string>
-    <string name="action_quick_reply">Quick reply</string>
-    <string name="action_open">Open</string>
-    <string name="action_close">Close</string>
-    <string name="action_invite_by_name">Invite from identifier</string>
-    <string name="action_invite_by_list">Invite from other rooms</string>
-    <string name="action_home">Home</string>
-    <string name="action_drawer">Extras</string>
-    <string name="action_resume_call">Resume call</string>
-    <string name="about">About</string>
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="disable">Disable</string>
+    <string name="action_voice_call">Audio poziv</string>
+    <string name="action_video_call">Video poziv</string>
+    <string name="action_search_room">Pretraži sobu</string>
+    <string name="action_search_contact">traži kontakt</string>
+    <string name="action_mark_all_as_read">Označi sve pročitano</string>
+    <string name="action_quick_reply">Odgovori</string>
+    <string name="action_open">Otvori</string>
+    <string name="action_close">Zatvori</string>
+    <string name="action_invite_by_name">Pozovi po imenu</string>
+    <string name="action_invite_by_list">Pozovi iz drugih soba</string>
+    <string name="action_home">Početna</string>
+    <string name="action_drawer">Dodatno</string>
+    <string name="action_resume_call">Nastavi poziv</string>
+    <string name="about">O nama</string>
+    <string name="copied_to_clipboard">Kopiraj u clipboard</string>
+    <string name="disable">Isključi</string>
 
     <!-- dialog titles -->
-    <string name="dialog_title_confirmation">Confirmation</string>
-    <string name="dialog_title_warning">Warning</string>
+    <string name="dialog_title_confirmation">Potvrda</string>
+    <string name="dialog_title_warning">Upozorenje</string>
 
-    <string name="send_bug_report_include_logs">Send logs</string>
-    <string name="send_bug_report_include_crash_logs">Send crash logs</string>
-    <string name="send_bug_report">Bug Report</string>
-    <string name="send_bug_report_description">Please describe the bug. What did you do? What did you expect to happen? What actually happened?</string>
-    <string name="send_bug_report_placeholder">Describe your problem here</string>
-    <string name="send_bug_report_logs_description">In order to diagnose problems, logs from this client will be sent with this bug report. If you would prefer to only send the text above, please untick:</string>
-    <string name="send_bug_report_alert_message">You seem to be shaking the phone in frustration. Would you like to submit a bug report?</string>
-    <string name="send_bug_report_sent">The bug report has been successfully sent</string>
-    <string name="send_bug_report_failed">The bug report failed to be sent (%s)</string>
-    <string name="send_bug_report_progress">Progress (%s%%)</string>
+    <string name="send_bug_report_include_logs">Pošalji log</string>
+    <string name="send_bug_report_include_crash_logs">Pošalji izvještaj o grešci</string>
+    <string name="send_bug_report">Prijavi grešku</string>
+    <string name="send_bug_report_description">Molimo opišite grešku. Šta ste radili?  Šta je trebalo da se desi? A šta je se u stvari dogodilo?</string>
+    <string name="send_bug_report_placeholder">Ovdje opišite problem</string>
+    <string name="send_bug_report_logs_description">Kako bi našli uzrok greške sa ovim izvještajem se šalju i logovi. Ako želite poslati samo tekst iznad, molimo isključite:</string>
+    <string name="send_bug_report_alert_message">Imate problema sa aplikacijom. Želite li prijaviti problem?</string>
+    <string name="send_bug_report_sent">Izvještaj o grešci je uspješno poslan</string>
+    <string name="send_bug_report_failed">Izvještaj o grešci nije uspješno poslan (%s)</string>
+    <string name="send_bug_report_progress">Progres (%s%%)</string>
 
-    <string name="send_files_in">Send into</string>
-    <string name="save_files_in">Save into</string>
-    <string name="file_is_saved">%1$s is saved.</string>
-    <string name="read_receipt">Read</string>
+    <string name="send_files_in">Pošalji u</string>
+    <string name="save_files_in">Snimi u </string>
+    <string name="file_is_saved">%1$s je snimljen.</string>
+    <string name="read_receipt">Pročitano</string>
 
     <string name="downloads">Downloads</string>
-    <string name="gallery">Gallery</string>
-    <string name="sd_scard">SD card</string>
-    <string name="other">Other</string>
+    <string name="gallery">Galerija</string>
+    <string name="sd_scard">SD kartica</string>
+    <string name="other">Ostalo..</string>
 
-    <string name="my_rooms">My rooms</string>
-    <string name="create_room">Create Room</string>
-    <string name="join_room">Join Room</string>
-    <string name="create">Create:</string>
-    <string name="sign_in">Sign in</string>
-    <string name="username">Username</string>
-    <string name="create_account">Register</string>
+    <string name="my_rooms">Moje sobe</string>
+    <string name="create_room">Napravi sobu</string>
+    <string name="join_room">Uđi u sobu</string>
+    <string name="create">Kreiraj:</string>
+    <string name="sign_in">Prijavi se</string>
+    <string name="username">Korisničko ime</string>
+    <string name="create_account">Registruj</string>
     <string name="matrix_login">Matrix Login</string>
-    <string name="login">Log in</string>
-    <string name="logout">Log out</string>
+    <string name="login">Prijava</string>
+    <string name="logout">Odjava</string>
     <string name="hs_url">Home Server URL</string>
     <string name="identity_url">Identity Server URL</string>
-    <string name="user">user</string>
-    <string name="users">users</string>
-    <string name="search">Search</string>
+    <string name="user">Korisnik</string>
+    <string name="users">Korisnici</string>
+    <string name="search">Traži</string>
 
-    <string name="create_room_set_alias">Set room alias</string>
-    <string name="create_room_alias_hint">room-alias</string>
-    <string name="create_room_set_name">Set room name</string>
-    <string name="create_room_name_hint">My room</string>
-    <string name="join_room_title">Join Room</string>
+    <string name="create_room_set_alias">Postavi nadimak sobe</string>
+    <string name="create_room_alias_hint">nadimak-sobe</string>
+    <string name="create_room_set_name">Postavi ime sobe</string>
+    <string name="create_room_name_hint">moja soba</string>
+    <string name="join_room_title">Uđi u sobu</string>
     <string name="join_room_hint">(e.g. #foo:example.org)</string>
 
-    <string name="membership_invite">Invited</string>
-    <string name="membership_join">Joined</string>
-    <string name="membership_leave">Left</string>
-    <string name="membership_kick">Kicked</string>
-    <string name="membership_ban">Banned</string>
-    <string name="start_chat">Start chat</string>
-    <string name="start_new_chat">Start New Chat</string>
-    <string name="start_voice_call">Start Voice Call</string>
-    <string name="start_video_call">Start Video Call</string>
+    <string name="membership_invite">Pozvan</string>
+    <string name="membership_join">Pridružen</string>
+    <string name="membership_leave">Isključen</string>
+    <string name="membership_kick">Izbačen</string>
+    <string name="membership_ban">Blokiran</string>
+    <string name="start_chat">Pokreni chat</string>
+    <string name="start_new_chat">Pokreni novi chat</string>
+    <string name="start_voice_call">Pokreni audio poziv</string>
+    <string name="start_video_call">Pokreni video poziv</string>
 
     <plurals name="num_members">
-        <item quantity="one">%1$s user</item>
-        <item quantity="other">%1$s users</item>
+        <item quantity="one">%1$s korisnik</item>
+        <item quantity="other">%1$s korisnici</item>
     </plurals>
 
-    <string name="invite">Invite</string>
-    <string name="kick">Kick</string>
-    <string name="ban">Ban</string>
-    <string name="unban">Un-ban</string>
+    <string name="invite">Pozovi</string>
+    <string name="kick">Izbaci</string>
+    <string name="ban">Blokiraj</string>
+    <string name="unban">Deblokiraj</string>
 
-    <string name="message_changes_successful">Changes successfully made</string>
-    <string name="message_unsaved_changes">There are unsaved changes. Leaving will discard them.</string>
+    <string name="message_changes_successful">Izmjene uspješno snimljene</string>
+    <string name="message_unsaved_changes">Postoje izmjene koje nisu sačuvane. Izlaskom ih odbacujemo.</string>
 
-    <string name="option_send_files">Send files</string>
-    <string name="option_take_photo_video">Take photo or video</string>
-    <string name="option_attach_video">Attach video</string>
+    <string name="option_send_files">Pošalji fajlove</string>
+    <string name="option_take_photo_video">Snimi sliku ili video</string>
+    <string name="option_attach_video">Priloži video</string>
 
     <!-- Authentication -->
-    <string name="auth_login">Log in</string>
-    <string name="auth_register">Register</string>
-    <string name="auth_submit">Submit</string>
-    <string name="auth_skip">Skip</string>
-    <string name="auth_send_reset_email">Send Reset Email</string>
-    <string name="auth_return_to_login">Return to login screen</string>
+    <string name="auth_login">Prijava</string>
+    <string name="auth_register">Registriraj\n\nse</string>
+    <string name="auth_submit">Pošalji</string>
+    <string name="auth_skip">Preskoči</string>
+    <string name="auth_send_reset_email">Pošalji email za obnovu</string>
+    <string name="auth_return_to_login">Vrati se na prijavu</string>
     <string name="auth_user_id_placeholder">Ime korisnika</string>
     <string name="auth_password_placeholder">Lozinka</string>
-    <string name="auth_new_password_placeholder">New password</string>
-    <string name="auth_user_name_placeholder">User name</string>
-    <string name="auth_add_email_message">"Add an email address to your account to let users discover you, and let you reset password."</string>
-    <string name="auth_add_phone_message">"Add a phone number to your account to let users discover you."</string>
-    <string name="auth_add_email_phone_message">"Add an email address and/or a phone number to your account to let users discover you.\n\nEmail address will also let you reset your password."</string>
-    <string name="auth_add_email_and_phone_message">"Add an email address and a phone number to your account to let users discover you.\n\nEmail address will also let you reset your password."</string>
-    <string name="auth_email_placeholder">Email address</string>
-    <string name="auth_opt_email_placeholder">Email address (optional)</string>
-    <string name="auth_phone_number_placeholder">Phone number</string>
-    <string name="auth_opt_phone_number_placeholder">Phone number (optional)</string>
-    <string name="auth_repeat_password_placeholder">Repeat password</string>
-    <string name="auth_repeat_new_password_placeholder">Confirm your new password</string>
-    <string name="auth_invalid_login_param">Incorrect username and/or password</string>
-    <string name="auth_invalid_user_name">User names may only contain letters, numbers, dots, hyphens and underscores</string>
-    <string name="auth_invalid_password">Password too short (min 6)</string>
-    <string name="auth_missing_password">Missing password</string>
-    <string name="auth_invalid_email">"This doesn't look like a valid email address"</string>
+    <string name="auth_new_password_placeholder">Nova lozinka</string>
+    <string name="auth_user_name_placeholder">Korisničko ime</string>
+    <string name="auth_add_email_message">"Dodajte email adresu vašem računu kako bi vas drugi lakše ponašli te da bi mogli obnoviti lozinku u slućaju gubitka."</string>
+    <string name="auth_add_phone_message">"Dodajte broj telefona vašem računu kako bi vas drugi lakše ponašli."</string>
+    <string name="auth_add_email_phone_message">"Dodajte email adresu ili broj telefona vašem računu kako bi vas drugi lakše ponašli.\n\nEmail vam omogućava da obnovite lozinku u slućaju gubitka."</string>
+    <string name="auth_add_email_and_phone_message">"Dodajte email adresu i broj telefona vašem računu kako bi vas drugi lakše ponašli.\n\nEmail vam omogućava da obnovite lozinku u slućaju gubitka."</string>
+    <string name="auth_email_placeholder">Email adresa</string>
+    <string name="auth_opt_email_placeholder">Email adresa (opciono)</string>
+    <string name="auth_phone_number_placeholder">Broj telefona</string>
+    <string name="auth_opt_phone_number_placeholder">Broj telefona (opciono)</string>
+    <string name="auth_repeat_password_placeholder">Ponovi Lozinku</string>
+    <string name="auth_repeat_new_password_placeholder">Potvrdite Vašu novu lozinku</string>
+    <string name="auth_invalid_login_param">Neispravno korisničko ime ili lozinka</string>
+    <string name="auth_invalid_user_name">Korisničko ime može sadržavati samo slova, brojeve, tačku, povlaku te donju liniju</string>
+    <string name="auth_invalid_password">Lozinka prekratka (min 6)</string>
+    <string name="auth_missing_password">Nedostaje lozinka</string>
+    <string name="auth_invalid_email">"Ovo nije ispravna email adresa"</string>
     <string name="auth_invalid_phone">"This doesn't look like a valid phone number"</string>
-    <string name="auth_email_already_defined">This email address is already defined.</string>
-    <string name="auth_missing_optional_email">If you don\'t specify an email address, you won\'t be able to reset your password. Are you sure?</string>
-    <string name="auth_missing_email">Missing email address</string>
-    <string name="auth_missing_phone">Missing phone number</string>
-    <string name="auth_missing_email_or_phone">Missing email address or phone number</string>
+    <string name="auth_email_already_defined">Ova email adresa je već prijavljena.</string>
+    <string name="auth_missing_optional_email">Ako ne dodijelite email adrese neće biti u mogučnosti obnoviti vašu lozinku. Dali ste sigurni?</string>
+    <string name="auth_missing_email">Nedostaje email adresa</string>
+    <string name="auth_missing_phone">Nedostaje broj telefona</string>
+    <string name="auth_missing_email_or_phone">Nedostaje email adresa ili broj telefona</string>
     <string name="auth_invalid_token">Invalid token</string>
-    <string name="auth_password_dont_match">Passwords don\'t match</string>
-    <string name="auth_forgot_password">Forgot password?</string>
+    <string name="auth_password_dont_match">Lozinke se ne podudaraju</string>
+    <string name="auth_forgot_password">Zaboravili ste lozinku?</string>
     <string name="auth_use_server_options">Podesiti postavke servera (pažnja!)</string>
-    <string name="auth_email_validation_message">Please check your email to continue registration</string>
+    <string name="auth_email_validation_message">Molimo provjerite vaš email, očekujte validacijsku poruku</string>
     <string name="auth_threepid_warning_message">Registration with email and phone number at once is not supported yet until the api exists. Only the phone number will be taken into account.\n\nYou may add your email to your profile in settings.</string>
-    <string name="auth_email_check_name_in_use_message">"Checking if user name is available..</string>
-    <string name="auth_email_registration_resumes_message">"Wait while registration resumes..</string>
-    <string name="auth_recaptcha_message">This Home Server would like to make sure you are not a robot</string>
-    <string name="auth_username_in_use">Username in use</string>
+    <string name="auth_email_check_name_in_use_message">"Provjera dostupnosti korisničkog imena..</string>
+    <string name="auth_email_registration_resumes_message">"Pričekajte dok se registracija nastavi...</string>
+    <string name="auth_recaptcha_message">Ovaj server bi htio da potvrdi kako niste robot</string>
+    <string name="auth_username_in_use">Korisničko ime u upotrebi</string>
     <string name="auth_home_server">Home Server:</string>
     <string name="auth_identity_server">Identity Server:</string>
-    <string name="auth_reset_password_next_step_button">I have verified my email address</string>
-    <string name="auth_reset_password_message">To reset your password, enter the email address linked to your account:</string>
-    <string name="auth_reset_password_missing_email">The email address linked to your account must be entered.</string>
-    <string name="auth_reset_password_missing_password">A new password must be entered.</string>
-    <string name="auth_reset_password_email_validation_message">An email has been sent to %s. Once you\'ve followed the link it contains, click below.</string>
-    <string name="auth_reset_password_error_unauthorized">Failed to verify email address: make sure you clicked the link in the email</string>
-    <string name="auth_reset_password_error_not_found">Your email address does not appear to be associated with a Matrix ID on this Homeserver.</string>
-    <string name="auth_reset_password_success_message">Your password has been reset.\n\nYou have been logged out of all devices and will no longer receive push notifications. To re-enable notifications, re-log in on each device.</string>
+    <string name="auth_reset_password_next_step_button">validirao sam svoju email adresu</string>
+    <string name="auth_reset_password_message">Kako bi  obnovili lozinku molim unestite email adresu za ovaj račun:</string>
+    <string name="auth_reset_password_missing_email">Morate unijeti email adresu povezanu sa ovim računom.</string>
+    <string name="auth_reset_password_missing_password">Morate unijeti novu lozinku.</string>
+    <string name="auth_reset_password_email_validation_message">Poslali smo email na  %s. Kada kliknete ba link u email-u, kliknuti ispod.</string>
+    <string name="auth_reset_password_error_unauthorized">Validacije emaila neuspješna: Molimo da provjerite dali ste kliknuli na link u email-u</string>
+    <string name="auth_reset_password_error_not_found">Vaša email adresa nije povezana sa računom na ovom serveru.</string>
+    <string name="auth_reset_password_success_message">Vaša lozinka je obnovljena.\n\nIsključeni ste sa svih uređaja kao i obavijesti. Molimo da se ponovo logirate na svim uređajima.</string>
 
     <!-- Login Screen -->
-    <string name="login_error_already_logged_in">Already logged in</string>
-    <string name="login_error_must_start_http">URL must start with http[s]://</string>
-    <string name="login_error_network_error">Unable to login: Network error</string>
-    <string name="login_error_unable_login">Unable to login</string>
-    <string name="login_error_registration_network_error">Unable to register: Network error</string>
-    <string name="login_error_unable_register">Unable to register</string>
-    <string name="login_error_unable_register_mail_ownership">Unable to register : email ownership failure</string>
-    <string name="login_error_invalid_credentials">Enter valid credentials</string>
-    <string name="login_error_invalid_home_server">Enter valid URL</string>
+    <string name="login_error_already_logged_in">Već ste prijavljeni</string>
+    <string name="login_error_must_start_http">URL mora početi sa  http[s]://</string>
+    <string name="login_error_network_error">Prijava nije uspjela: Greška sa mrežom</string>
+    <string name="login_error_unable_login">Prijava nije uspjela</string>
+    <string name="login_error_registration_network_error">Registracija nije uspjela: Greška sa mrežom</string>
+    <string name="login_error_unable_register">Registracija nije uspjela</string>
+    <string name="login_error_unable_register_mail_ownership">Registracija nije uspjela : Greška u email potvrdi</string>
+    <string name="login_error_invalid_credentials">Unesite velidan certifikat</string>
+    <string name="login_error_invalid_home_server">Unesite validan URL</string>
 
     <string name="login_error_no_login_flow">We failed to retrieve authentication information from this Home Server</string>
     <string name="login_error_do_not_support_login_flows">Currently we do not support any or all login flows defined by this Home Server</string>
@@ -260,24 +260,24 @@
     <string name="e2e_need_log_in_again">You need to log back in to generate end-to-end encryption keys for this device and submit the public key to your homeserver.\nThis is a once off.\nSorry for the inconvenience.</string>
 
     <!-- members list Screen -->
-    <string name="members_list">Members List</string>
+    <string name="members_list">Lista članova</string>
 
     <!-- read receipts list Screen -->
     <string name="read_receipts_list">Read Receipts List</string>
 
     <!-- accounts list Screen -->
-    <string name="choose_account">Choose account</string>
+    <string name="choose_account">Odaberi račun</string>
 
     <!-- image size selection -->
-    <string name="compression_options">Send as </string>
+    <string name="compression_options">Pošalji kao </string>
     <string name="compression_opt_list_original">Original</string>
-    <string name="compression_opt_list_large">Large</string>
-    <string name="compression_opt_list_medium">Medium</string>
-    <string name="compression_opt_list_small">Small</string>
+    <string name="compression_opt_list_large">Veliku</string>
+    <string name="compression_opt_list_medium">Srednju</string>
+    <string name="compression_opt_list_small">Malu</string>
 
     <!-- media upload / download messages -->
-    <string name="attachment_cancel_download">"Cancel the download?</string>
-    <string name="attachment_cancel_upload">Cancel the upload?</string>
+    <string name="attachment_cancel_download">"Prekini download?</string>
+    <string name="attachment_cancel_upload">Prekini upload?</string>
     <string name="attachment_remaining_time_seconds">%d s</string>
     <string name="attachment_remaining_time_minutes">%1$dm %2$ds</string>
 
@@ -287,46 +287,46 @@
     <string name="members_large_room_members">Large room members</string>
 
     <!-- room creation dialog Screen -->
-    <string name="yesterday">Yesterday</string>
-    <string name="today">Today</string>
+    <string name="yesterday">Jučer</string>
+    <string name="today">Danas</string>
 
     <!-- room creation dialog Screen -->
-    <string name="room_creation_room_name">Name</string>
-    <string name="room_creation_room_name_hint">(e.g lunchGroup)</string>
-    <string name="room_creation_room_alias">Alias</string>
-    <string name="room_creation_room_alias_hint">"Room Alias (optional)</string>
-    <string name="room_creation_participants">With</string>
+    <string name="room_creation_room_name">Ime</string>
+    <string name="room_creation_room_name_hint">(e.g KomercijalaGroup)</string>
+    <string name="room_creation_room_alias">Nadimak</string>
+    <string name="room_creation_room_alias_hint">"Nadimak sobe (optional)</string>
+    <string name="room_creation_participants">Učestvuju:</string>
     <string name="room_creation_participants_hint">(e.g. @me:hs;...)</string>
-    <string name="room_creation_create_room">Create room</string>
-    <string name="room_creation_public">Public Room</string>
-    <string name="room_creation_private">Private</string>
+    <string name="room_creation_create_room">Napravi sobu</string>
+    <string name="room_creation_public">Javna soba</string>
+    <string name="room_creation_private">Privatno</string>
 
     <!-- room info dialog Screen -->
-    <string name="room_info_room_name">Room name</string>
-    <string name="room_info_room_name_hint">Enter a room name</string>
-    <string name="room_info_room_topic">Room topic</string>
-    <string name="room_info_room_topic_hint">Enter a room topic</string>
+    <string name="room_info_room_name">Naziv sobe</string>
+    <string name="room_info_room_name_hint">Unesi naziv sobe</string>
+    <string name="room_info_room_topic">Tema sobe</string>
+    <string name="room_info_room_topic_hint">Unesi temu sobe</string>
     <string name="room_info_room_canonical_alias">Canonical alias</string>
     <string name="room_info_room_canonical_hint">Enter a canonical alias</string>
-    <string name="room_info_room_discard_changes">Discard changes ?</string>
-    <string name="room_info_room_discard">Discard</string>
+    <string name="room_info_room_discard_changes">Odbaci promjene ?</string>
+    <string name="room_info_room_discard">Odbaci</string>
 
     <!-- contacts list screen -->
-    <string name="contacts">Contacts</string>
+    <string name="contacts">Kontakti</string>
 
     <!-- Notification settings screen -->
-    <string name="notification_settings_title">Notification Settings</string>
-    <string name="notification_settings_disable_all">Disable all notifications</string>
-    <string name="notification_settings_enable_notifications">Enable notifications</string>
-    <string name="notification_settings_enable_notifications_warning">All notifications are currently disabled for all devices.</string>
-    <string name="notification_settings_global_notification_settings">Global Notification Settings</string>
+    <string name="notification_settings_title">Postavke obavijesti</string>
+    <string name="notification_settings_disable_all">Isključi sve obavijesti</string>
+    <string name="notification_settings_enable_notifications">Uključi obavijesti</string>
+    <string name="notification_settings_enable_notifications_warning">Obavijesti su trenutno isključene za sve uređaje.</string>
+    <string name="notification_settings_global_notification_settings">Općenite postavke obavijesti</string>
     <string name="notification_settings_global_info">Notification settings are saved to your user account and are shared between all clients which support them (including desktop notifications).\n\nRules are applied in order; the first rule which matches defines the outcome for the message.\nSo: Per-word notifications are more important than per-room notifications which are more important than per-sender notifications.\nFor multiple rules of the same kind, the first one in the list that matches takes priority.</string>
     <string name="notification_settings_per_word_notifications">Per-word notifications</string>
     <string name="notification_settings_per_word_info">Words match case insensitively, and may include a * wildcard. So:\nfoo matches the string foo surrounded by word delimiters (e.g. punctuation and whitespace or start/end of line).\nfoo* matches any such word that begins foo.\n*foo* matches any such word which includes the 3 letters foo.</string>
-    <string name="notification_settings_always_notify">Always notify</string>
-    <string name="notification_settings_never_notify">Never notify</string>
-    <string name="notification_settings_word_to_match">word to match</string>
-    <string name="notification_settings_sound">Sound</string>
+    <string name="notification_settings_always_notify">Uvijek obavijesti</string>
+    <string name="notification_settings_never_notify">Ne obavještavaj</string>
+    <string name="notification_settings_word_to_match">riječ koja aktivira</string>
+    <string name="notification_settings_sound">Zvuk</string>
     <string name="notification_settings_highlight">Highlight</string>
     <string name="notification_settings_custom_sound">Custom sound</string>
     <string name="notification_settings_per_room_notifications">Per-room notifications</string>
@@ -520,7 +520,7 @@
     <string name="room_participants_action_set_default_power_level">Reset to normal user</string>
     <string name="room_participants_action_set_moderator">Make moderator</string>
     <string name="room_participants_action_set_admin">Make admin</string>
-    <string name="room_participants_action_start_chat">Start chat</string>
+    <string name="room_participants_action_start_chat">Pokreni razgovor</string>
     <string name="room_participants_action_start_voice_call">Start voice call</string>
     <string name="room_participants_action_start_video_call">Start video call</string>
     <string name="room_participants_action_ignore">Hide all messages from this user</string>
@@ -549,32 +549,32 @@
     <string name="presence_unavailable">Unavailable</string>
 
     <!--  Chat -->
-    <string name="room_menu_search">Search</string>
-    <string name="room_menu_call">Call</string>
-    <string name="room_menu_participants">Participants</string>
-    <string name="room_menu_favourite">Favourite</string>
-    <string name="room_menu_unfavourite">Unfavourite</string>
-    <string name="room_menu_settings">Settings</string>
-    <string name="room_option_start_group_voice">Start group audio chat</string>
-    <string name="room_option_start_group_video">Start group video chat</string>
-    <string name="room_option_share_location">Share location</string>
-    <string name="room_option_share_contact">Share contact</string>
-    <string name="room_one_user_is_typing">%s is typing...</string>
-    <string name="room_two_users_are_typing">%1$s &#038; %2$s are typing...</string>
-    <string name="room_many_users_are_typing">%1$s &#038; %2$s &#038; others are typing...</string>
-    <string name="room_message_placeholder_encrypted">Send an encrypted message...</string>
-    <string name="room_message_placeholder_not_encrypted">Send a message (unencrypted)...</string>
-    <string name="room_offline_notification">Connectivity to the server has been lost.</string>
+    <string name="room_menu_search">Traži</string>
+    <string name="room_menu_call">Pozovi</string>
+    <string name="room_menu_participants">Učestvuju</string>
+    <string name="room_menu_favourite">Favorit</string>
+    <string name="room_menu_unfavourite">Ne-favorit</string>
+    <string name="room_menu_settings">Postavke</string>
+    <string name="room_option_start_group_voice">Pokreni grupni audio poziv</string>
+    <string name="room_option_start_group_video">Pokreni grupni video poziv</string>
+    <string name="room_option_share_location">Podijeli lokaciju</string>
+    <string name="room_option_share_contact">Podijeli kontakt</string>
+    <string name="room_one_user_is_typing">%s tipka...</string>
+    <string name="room_two_users_are_typing">%1$s &#038; %2$s tipkaju...</string>
+    <string name="room_many_users_are_typing">%1$s &#038; %2$s &#038; ostali tipkaju...</string>
+    <string name="room_message_placeholder_encrypted">Pošalji kriptovanu poruku...</string>
+    <string name="room_message_placeholder_not_encrypted">Pošaljite poruku (unencrypted)...</string>
+    <string name="room_offline_notification">Konekcija prema serveru je izgubljena.</string>
     <string name="room_unsent_messages_notification">Messages not sent. %1$s or %2$s now?</string>
     <string name="room_unknown_devices_messages_notification">Messages not sent due to unknown devices being present. %1$s or %2$s now?</string>
-    <string name="room_prompt_resend">Resend all</string>
-    <string name="room_prompt_cancel">cancel all</string>
-    <string name="room_resend_unsent_messages">Resend unsent messages</string>
-    <string name="room_delete_unsent_messages">Delete unsent messages</string>
-    <string name="room_message_file_not_found">File not found</string>
-    <string name="room_do_not_have_permission_to_post">You do not have permission to post to this room</string>
-    <string name="room_new_message_notification">1 new message</string>
-    <string name="room_new_messages_notification">%1$d new messages</string>
+    <string name="room_prompt_resend">Ponovi sve</string>
+    <string name="room_prompt_cancel">Poništi sve</string>
+    <string name="room_resend_unsent_messages">Ponovi slanje poruka koje nisu poslane</string>
+    <string name="room_delete_unsent_messages">Obriši neposlane poruke</string>
+    <string name="room_message_file_not_found">Fajl nije pronađen</string>
+    <string name="room_do_not_have_permission_to_post">Nemate dozvolu da koristite ovu sobu</string>
+    <string name="room_new_message_notification">1 nova poruka</string>
+    <string name="room_new_messages_notification">%1$d nove poruke</string>
 
     <!-- unrecognized SSL certificate -->
     <string name="ssl_trust">Trust</string>
@@ -590,20 +590,20 @@
     <string name="ssl_only_accept">ONLY accept the certificate if the server administrator has published a fingerprint that matches the one above.</string>
     <string name="ssl_fingerprint_example">00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</string>
 
-    <!-- Room Details -->
-    <string name="room_details_title">Room Details</string>
-    <string name="room_details_people">People</string>
-    <string name="room_details_files">Files</string>
-    <string name="room_details_settings">Settings</string>
-    <string name="room_details_fail_to_update_topic">Fail to update the topic</string>
-    <string name="room_details_fail_to_update_room_name">Fail to update the room name</string>
-    <string name="room_details_with_updates">The updates will be lost : are you sure to leave ?</string>
-    <string name="room_details_room_listed_in_directory">room listed</string>
-    <string name="room_details_room_not_listed_in_directory">room not listed</string>
-    <string name="room_details_selected">selected</string>
+    <!-- O sobi -->
+    <string name="room_details_title">Soba detaljno</string>
+    <string name="room_details_people">Kontakti</string>
+    <string name="room_details_files">Fajlovi</string>
+    <string name="room_details_settings">Postavke</string>
+    <string name="room_details_fail_to_update_topic">Neuspješno postavljanje teme</string>
+    <string name="room_details_fail_to_update_room_name">Neuspješno postavljanje naziva sobe</string>
+    <string name="room_details_with_updates">Promjene će biti izgubljene, dali sigurno želite napustiti?</string>
+    <string name="room_details_room_listed_in_directory">Soba je u listi</string>
+    <string name="room_details_room_not_listed_in_directory">Soba nije u listi</string>
+    <string name="room_details_selected">Odabrano</string>
     <string name="malformed_id">Malformed ID. Should be an email address or a Matrix ID like \'@localpart:domain\'</string>
-    <string name="room_details_people_invited_group_name">INVITED</string>
-    <string name="room_details_people_present_group_name">JOINED</string>
+    <string name="room_details_people_invited_group_name">Pozvan</string>
+    <string name="room_details_people_present_group_name">Pridružen</string>
 
     <!-- Room events -->
     <string name="room_event_action_report_prompt_reason">Reason for reporting this content</string>
@@ -619,13 +619,13 @@
     <string name="room_displayname_no_title">Empty room</string>
 
     <!-- Search -->
-    <string name="search_hint">Search</string>
-    <string name="search_members_hint">Filter room members</string>
-    <string name="search_no_results">No results</string>
-    <string name="tab_title_search_rooms">ROOMS</string>
-    <string name="tab_title_search_messages">MESSAGES</string>
-    <string name="tab_title_search_people">PEOPLE</string>
-    <string name="tab_title_search_files">FILES</string>
+    <string name="search_hint">Traži</string>
+    <string name="search_members_hint">Filtriraj članove sobe</string>
+    <string name="search_no_results">Nema rezultata</string>
+    <string name="tab_title_search_rooms">SOBE</string>
+    <string name="tab_title_search_messages">PORUKE</string>
+    <string name="tab_title_search_people">KONTAKTI</string>
+    <string name="tab_title_search_files">FAJLOVI</string>
 
     <!-- Room recents -->
     <string name="room_recents_join">JOIN</string>
@@ -635,8 +635,8 @@
     <string name="room_recents_conversations">ROOMS</string>
     <string name="room_recents_low_priority">LOW PRIORITY</string>
     <string name="room_recents_invites">INVITES</string>
-    <string name="room_recents_start_chat">Start chat</string>
-    <string name="room_recents_create_room">Create room</string>
+    <string name="room_recents_start_chat">Pokreni razgovor</string>
+    <string name="room_recents_create_room">Kreiraj sobu</string>
 
     <!-- Directory -->
     <string name="directory_search_results_title">Browse directory</string>
@@ -655,72 +655,72 @@
     <string name="room_settings_leave_conversation">Leave Conversation</string>
 
     <!-- home sliding menu -->
-    <string name="room_sliding_menu_messages">Messages</string>
-    <string name="room_sliding_menu_settings">Settings</string>
-    <string name="room_sliding_menu_version">Version </string>
-    <string name="room_sliding_menu_term_and_conditions">Terms &amp; conditions</string>
-    <string name="room_sliding_menu_third_party_notices">Third party notices</string>
-    <string name="room_sliding_menu_copyright">Copyright</string>
-    <string name="room_sliding_menu_privacy_policy">Privacy policy</string>
-    <string name="action_voice_search">Voice search</string>
+    <string name="room_sliding_menu_messages">Poruke</string>
+    <string name="room_sliding_menu_settings">Postavke</string>
+    <string name="room_sliding_menu_version">Verzija </string>
+    <string name="room_sliding_menu_term_and_conditions">Uslovi korištenja</string>
+    <string name="room_sliding_menu_third_party_notices">3P obavijesti</string>
+    <string name="room_sliding_menu_copyright">Autorska prava</string>
+    <string name="room_sliding_menu_privacy_policy">Privatnost</string>
+    <string name="action_voice_search">Glasovna pretraga</string>
 
     <!-- Vector Settings -->
-    <string name="account_logout_all">Logout all accounts</string>
+    <string name="account_logout_all">Odjavi se sa svih računa</string>
     <string name="settings_config_no_build_info">(no build info)</string>
-    <string name="settings_title_config">Configuration</string>
+    <string name="settings_title_config">Postavke</string>
 
-    <string name="settings_sign_out">Sign Out</string>
-    <string name="settings_profile_picture">Profile Picture</string>
-    <string name="settings_display_name">Display Name</string>
-    <string name="settings_first_name">First Name</string>
-    <string name="settings_surname">Surname</string>
+    <string name="settings_sign_out">Odjavi se</string>
+    <string name="settings_profile_picture">Slika profila</string>
+    <string name="settings_display_name">Prikaz imena</string>
+    <string name="settings_first_name">Ime</string>
+    <string name="settings_surname">Prezime</string>
     <string name="settings_email_address">Email</string>
-    <string name="settings_add_email_address">Add email address</string>
-    <string name="settings_phone_number">Phone</string>
-    <string name="settings_add_phone_number">Add phone number</string>
-    <string name="settings_night_mode">Night Mode</string>
+    <string name="settings_add_email_address">Dodaj email adresu</string>
+    <string name="settings_phone_number">Telefon</string>
+    <string name="settings_add_phone_number">Dodaj broj telefona</string>
+    <string name="settings_night_mode">Noćni režim rada</string>
     <string name="settings_summary_app_info_link">Application system info screen</string>
     <string name="settings_title_app_info_link">Application info</string>
 
-    <string name="settings_enable_all_notif">Enable notifications for this account</string>
-    <string name="settings_enable_this_device">Enable notifications for this device</string>
-    <string name="settings_turn_screen_on">Turn the screen on for 3 seconds</string>
+    <string name="settings_enable_all_notif">Omogući obavijesti za ovaj račun</string>
+    <string name="settings_enable_this_device">Omogući obavijesti za ovaj uređaj</string>
+    <string name="settings_turn_screen_on">Uključi prikaz na 3 sekunde</string>
 
-    <string name="settings_containing_my_name">Msgs containing my name</string>
-    <string name="settings_messages_in_one_to_one">Msgs in one-to-one chats</string>
-    <string name="settings_messages_in_group_chat">Msgs in group chats</string>
-    <string name="settings_invited_to_room">When i\'m invited to a room</string>
-    <string name="settings_call_invitations">Call invitations</string>
-    <string name="settings_messages_sent_by_bot">Messages sent by bot</string>
+    <string name="settings_containing_my_name">Poruke koje sadrže moje ime</string>
+    <string name="settings_messages_in_one_to_one">Poruke u razgovorima jedan na jedan</string>
+    <string name="settings_messages_in_group_chat">Poruke u grupnim razgovorima</string>
+    <string name="settings_invited_to_room">Kada sam pozvan u sobu</string>
+    <string name="settings_call_invitations">Poziv na razgovor</string>
+    <string name="settings_messages_sent_by_bot">Poruke poslao BOT</string>
 
-    <string name="settings_background_sync">Background synchronization</string>
-    <string name="settings_enable_background_sync">Enable background sync</string>
-    <string name="settings_set_sync_timeout">Sync request timeout</string>
-    <string name="settings_set_sync_delay">Delay between two sync requests</string>
-    <string name="settings_second">second</string>
-    <string name="settings_seconds">seconds</string>
+    <string name="settings_background_sync">Pozadinska sinhronizacija</string>
+    <string name="settings_enable_background_sync">Uključi pozadinsku sinhronizaciju</string>
+    <string name="settings_set_sync_timeout">Isteklo vrijeme za sinhronizaciju</string>
+    <string name="settings_set_sync_delay">Pauza između zahtjeva za sinhronizaciju</string>
+    <string name="settings_second">sekunda</string>
+    <string name="settings_seconds">sekunde</string>
 
-    <string name="settings_version">Version</string>
-    <string name="settings_olm_version">olm version</string>
-    <string name="settings_app_term_conditions">Terms &amp; conditions</string>
-    <string name="settings_third_party_notices">Third party notices</string>
-    <string name="settings_copyright">Copyright</string>
-    <string name="settings_privacy_policy">Privacy policy</string>
-    <string name="settings_clear_cache">Clear cache</string>
+    <string name="settings_version">Verzija</string>
+    <string name="settings_olm_version">olm verzija</string>
+    <string name="settings_app_term_conditions">Uslovi korištenja</string>
+    <string name="settings_third_party_notices">3P obavijesti</string>
+    <string name="settings_copyright">Autorska prava</string>
+    <string name="settings_privacy_policy">Privatnost</string>
+    <string name="settings_clear_cache">Pobriši cache</string>
     <!--string name="settings_room_privacy_label">Privacy</string-->
 
 
-    <string name="settings_user_settings">User settings</string>
-    <string name="settings_notifications">Notifications</string>
-    <string name="settings_ignored_users">Ignored users</string>
-    <string name="settings_other">Other</string>
-    <string name="settings_advanced">Advanced</string>
+    <string name="settings_user_settings">Postavke korisnika</string>
+    <string name="settings_notifications">Obavijesti</string>
+    <string name="settings_ignored_users">Korisnici koje ignorišem</string>
+    <string name="settings_other">Ostalo</string>
+    <string name="settings_advanced">Napredno</string>
     <string name="settings_cryptography">Cryptography</string>
-    <string name="settings_notifications_targets">Notification Targets</string>
-    <string name="settings_contact">Local contacts</string>
-    <string name="settings_contacts_app_permission">Contacts permission</string>
-    <string name="settings_contacts_phonebook_country">Phonebook country</string>
-    <string name="settings_devices_list">Devices</string>
+    <string name="settings_notifications_targets">Uređaji i obavijesti</string>
+    <string name="settings_contact">Lokalkni kontakti</string>
+    <string name="settings_contacts_app_permission">Dozvole kontakata</string>
+    <string name="settings_contacts_phonebook_country">Adresar za državu</string>
+    <string name="settings_devices_list">Uređaji</string>
     <string name="devices_divider">devices_devider</string>
     <string name="cryptography_divider">cryptography_divider</string>
     <string name="devices_details_dialog_title">Device details</string>
@@ -744,7 +744,7 @@
     <string name="account_email_validation_message">Please check your email and click on the link it contains. Once this is done, click continue.</string>
     <string name="account_email_validation_error">Unable to verify email address. Please check your email and click on the link it contains. Once this is done, click continue</string>
 
-    <string name="settings_change_password">Change password</string>
+    <string name="settings_change_password">Izmjeni lozinku</string>
     <string name="settings_old_password">old password</string>
     <string name="settings_new_password">new password</string>
     <string name="settings_confirm_password">confirm password</string>
@@ -770,13 +770,13 @@
     <!-- Room Settings -->
 
     <!-- room global settings-->
-    <string name="room_settings_room_photo">Room Photo</string>
-    <string name="room_settings_photo">Room Photo</string>
-    <string name="room_settings_room_name">Room Name</string>
-    <string name="room_settings_topic">Topic</string>
-    <string name="room_settings_room_tag">Room Tag</string>
-    <string name="room_settings_tag_pref_dialog_title">Tagged as:</string>
-    <string name="room_settings_mute_notifs">Mute Notifications</string>
+    <string name="room_settings_room_photo">Slika sobe</string>
+    <string name="room_settings_photo">Slika sobe</string>
+    <string name="room_settings_room_name">Naziv sobe</string>
+    <string name="room_settings_topic">Tema</string>
+    <string name="room_settings_room_tag">Tag sobe</string>
+    <string name="room_settings_tag_pref_dialog_title">Tagirana kao:</string>
+    <string name="room_settings_mute_notifs">Ugasi obavijesti</string>
 
     <!-- Room settings: Room tag -->
     <string name="room_settings_tag_pref_entry_favourite">Favourite</string>
@@ -812,14 +812,14 @@
     <string name="room_settings_room_access_entry_anyone_with_link_including_guest">Anyone who knows the room\'s link, including guests</string>
 
     <!-- Room settings: banned users -->
-    <string name="room_settings_banned_users_title">Banned users</string>
+    <string name="room_settings_banned_users_title">Blokirani korisnici</string>
 
     <!-- advanced -->
-    <string name="room_settings_category_advanced_title">Advanced</string>
-    <string name="room_settings_room_internal_id">This room\'s internal ID</string>
-    <string name="room_settings_addresses_pref_title">Addresses</string>
+    <string name="room_settings_category_advanced_title">Napredno</string>
+    <string name="room_settings_room_internal_id">Sobin internai ID</string>
+    <string name="room_settings_addresses_pref_title">Adrese</string>
     <string name="room_settings_labs_pref_title">Labs</string>
-    <string name="room_settings_labs_warning_message">These are experimental features that may break in unexpected ways. Use with caution.</string>
+    <string name="room_settings_labs_warning_message">Pozor !!! Ovo su experminetalne opcije ne dirati bez stručne podrške .</string>
     <string name="room_settings_labs_end_to_end">End-to-End Encryption</string>
     <string name="room_settings_labs_end_to_end_is_active">End-to-End Encryption is active</string>
     <string name="room_settings_labs_end_to_end_warnings">You need to logout to be able to enable the encryption.</string>
